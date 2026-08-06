@@ -1,6 +1,8 @@
+// Uygulamayı kurmaya başla 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
+// "Bu bir MVC uygulaması, Controller ve View Kullanacağım."
 builder.Services.AddControllersWithViews();
 
 var app = builder.Build();
@@ -13,16 +15,19 @@ if (!app.Environment.IsDevelopment())
     app.UseHsts();
 }
 
+// http:// ile gelen isteği https://'e yönlendir(güvenlik)
 app.UseHttpsRedirection();
+//Yönlendirme kullanılacak
 app.UseRouting();
 
+//Login Sistemi olacak
 app.UseAuthorization();
-
+// Varlıkların Statik haritası olacak.
 app.MapStaticAssets();
 
 app.MapControllerRoute(
     name: "default",
-    pattern: "{controller=Home}/{action=Index}/{id?}")
+    pattern: "{controller=Bolum}/{action=BolumListesi}/{id?}")
     .WithStaticAssets();
 
 

@@ -2,19 +2,35 @@ using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
 using OkulYonetim.Models;
 
+
 namespace OkulYonetim.Controllers;
 
-public class HomeController : Controller
+public class BolumController : Controller
 {
-    public IActionResult Index()
+    
+    private readonly ILogger<BolumController> _logger;
+    
+    public BolumController(ILogger<BolumController> logger)
+    {
+        _logger = logger;
+    }
+   public IActionResult BolumListesi()
     {
         return View();
-    }
-    public IActionResult Index2()
+    } 
+     public IActionResult BolumEkle()
     {
         return View();
-    }
-   
+    } 
+     public IActionResult BolumDuzenle()
+    {
+        return View();
+    } 
+     public IActionResult BolumSil()
+    {
+        return View();
+    } 
+
     public IActionResult Privacy()
     {
         return View();
