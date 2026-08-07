@@ -39,6 +39,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9sdW1cQm9sdW1TaWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/özcanemregönültaş/Documents/dev/Project1/OkulYonetim/Views/Deneme/Merhaba.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVuZW1lXE1lcmhhYmEuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/özcanemregönültaş/Documents/dev/Project1/OkulYonetim/Views/Fakulte/FakulteDuzenle.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmFrdWx0ZVxGYWt1bHRlRHV6ZW5sZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
@@ -73,6 +77,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/özcanemregönültaş/Documents/dev/Project1/OkulYonetim/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/özcanemregönültaş/Documents/dev/Project1/OkulYonetim/Views/Tanitim/BeniTani.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGFuaXRpbVxCZW5pVGFuaS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/özcanemregönültaş/Documents/dev/Project1/OkulYonetim/Views/_ViewImports.cshtml]
